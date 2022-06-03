@@ -1,63 +1,61 @@
 {
-  "@context": [
-    {
-      "@version": 1.1,
-      "@protected": true,
-      "id": "@id",
-      "type": "@type",
-      "PolygonDAOMember": {
-        "@id": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/json-ld/dao.json-ld#PolygonDAOMember",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/vocab/dao.md#",
-          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
-          "version": {
-            "@id": "vocab:version",
-            "@type": "serialization:IndexDataSlotA"
-          },
-          "role": {
-            "@id": "vocab:role",
-            "@type": "serialization:IndexDataSlotB"
-          },
-        }
-      },
-      "PolygonDAOTeamMember": {
-        "@id": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/json-ld/dao.json-ld#PolygonDAOTeamMember",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/vocab/dao.md#",
-          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
-          "version": {
-            "@id": "vocab:version",
-            "@type": "serialization:IndexDataSlotA"
-          }
-          "role": {
-              "@id": "vocab:role",
-              "@type": "serialization:IndexDataSlotB"
-            }
-        }
-      },
-      "UniquePersonCredential{": {
-        "@id": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/json-ld/dao.json-ld#PolygonHumanCredential",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/polygonid/schema-jsonld/main/vocab/dao.md#",
-          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
-          "version": {
-            "@id": "vocab:version",
-            "@type": "serialization:IndexDataSlotA"
-          }
-        }
-      }
-    }
-  ]
+	"@context": [{
+		"@version": 1.1,
+		"@protected": true,
+		"id": "@id",
+		"type": "@type",
+		"PolygonDAOMember": {
+			"@id": "https://verifi.polygonid.com/schema/jsonld/dao.json-ld#PolygonDAOMember",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"vocab": "https://verifi.polygonid.com/schema/vocab/dao.md#",
+				"serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+				"version": {
+					"@id": "vocab:version",
+					"@type": "serialization:IndexDataSlotA"
+				},
+				"role": {
+					"@id": "vocab:role",
+					"@type": "serialization:IndexDataSlotB"
+				}
+			}
+		},
+		"PolygonDAOTeamMember": {
+			"@id": "https://verifi.polygonid.com/schema/jsonld/dao.json-ld#PolygonDAOTeamMember",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"vocab": "https://verifi.polygonid.com/schema/vocab/dao.md#",
+				"serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+				"version": {
+					"@id": "vocab:version",
+					"@type": "serialization:IndexDataSlotA"
+				},
+				"role": {
+					"@id": "vocab:role",
+					"@type": "serialization:IndexDataSlotB"
+				}
+			}
+		},
+		"UniquePersonCredential": {
+			"@id": "https://verifi.polygonid.com/schema/jsonld/dao.json-ld#UniquePersonCredential",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"vocab": "https://verifi.polygonid.com/schema/vocab/dao.md#",
+				"serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+				"version": {
+					"@id": "vocab:version",
+					"@type": "serialization:IndexDataSlotA"
+				}
+			}
+		}
+	}]
 }
