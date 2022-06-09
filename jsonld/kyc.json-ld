@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "AgeCredential": {
-        "@id": "https://verifi.polygonid.com/schema/jsonld/kyc.json-ld#AgeCredential",
+        "@id": "https://verify.polygonid.com/schema/jsonld/kyc.json-ld#AgeCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://verifi.polygonid.com/schema/vocab/kyc.md#",
+          "vocab": "https://verify.polygonid.com/schema/vocab/kyc.md#",
           "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
           "birthDay": {
             "@id": "vocab:birthDay",
@@ -21,13 +21,13 @@
         }
       },
       "CountryOfResidenceCredential": {
-        "@id": "https://verifi.polygonid.com/schema/jsonld/kyc.json-ld#CountryOfResidenceCredential",
+        "@id": "https://verify.polygonid.com/schema/jsonld/kyc.json-ld#CountryOfResidenceCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://verifi.polygonid.com/schema/vocab/kyc.md#",
+          "vocab": "https://verify.polygonid.com/schema/vocab/kyc.md#",
           "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
           "countryCode": {
             "@id": "vocab:countryCode",
