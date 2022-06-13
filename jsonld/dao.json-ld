@@ -42,8 +42,8 @@
 				}
 			}
 		},
-		"UniquePersonCredential": {
-			"@id": "https://verify.polygonid.com/schema/jsonld/dao.json-ld#UniquePersonCredential",
+		"ProofOfPersonhood": {
+			"@id": "https://verify.polygonid.com/schema/jsonld/dao.json-ld#ProofOfPersonhood",
 			"@context": {
 				"@version": 1.1,
 				"@protected": true,
