@@ -1,4 +1,4 @@
-#schemas
+# schemas
 
 The repository contains schemas of the claims issued by Polygon Verify. In particular: 
 
